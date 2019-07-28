@@ -1,5 +1,6 @@
 {
-  "preprocess_bed.IntervalFile.mappability": "gs://terra-cnvworkflow/wgEncodeCrgMapabilityAlign75mer.bigWig",
-  "preprocess_bed.IntervalFile.inputFasta": "gs://broad-references/hg19/v0/Homo_sapiens_assembly19.fasta",
-  "preprocess_bed.IntervalFile.inputBED": "gs://terra-cnvworkflow/whole_exome_agilent_1.1_refseq_plus_3_boosters.targetIntervals.bed"
+  "intervalfile.IntervalFile.mappability": "gs://terra-cnvworkflow/wgEncodeCrgMapabilityAlign75mer.bigWig",
+  "intervalfile.IntervalFile.inputFasta": "gs://broad-references/hg19/v0/Homo_sapiens_assembly19.fasta",
+  "intervalfile.copy.destination": "String",
+  "intervalfile.IntervalFile.inputBED": "gs://terra-cnvworkflow/whole_exome_agilent_1.1_refseq_plus_3_boosters.targetIntervals.bed"
 }
