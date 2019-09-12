@@ -11,6 +11,10 @@ workflow intervalfile {
         email: "shbrief@gmail.com"
         description: "IntervalFile.R of PureCN: Generate an interval file from a BED file containing baits coordinates"
     }
+    
+    output {
+        File PureCN_interval = IntervalFile.Interval
+    }
 }
 
 task IntervalFile {
