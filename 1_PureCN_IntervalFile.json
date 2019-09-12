@@ -1,0 +1,6 @@
+{
+    "intervalfile.copy.destination":".",
+    "intervalfile.IntervalFile.inputBED":"${workspace.BED}",
+    "intervalfile.IntervalFile.inputFasta":"${workspace.ref_fasta}",
+    "intervalfile.IntervalFile.mappability":"${workspace.mappability}"
+}
