@@ -7,7 +7,7 @@ workflow intervalfile {
 	}
 	
 	meta {
-	author: "Sehyun Oh"
+	    author: "Sehyun Oh"
         email: "shbrief@gmail.com"
         description: "IntervalFile.R of PureCN: Generate an interval file from a BED file containing baits coordinates of WXS capture kit. Before using thie workflow, BED file needs to be formatted properly (through `format_bedfile` notebook)."
     }
